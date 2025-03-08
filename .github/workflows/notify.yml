@@ -1,0 +1,17 @@
+name: Notify Main Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify-main-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Dispatch Event to Main Repository
+        run: |
+          curl -X POST -H "Accept: application/vnd.github.everest-preview+json" \
+               -H "Authorization: token ${{ secrets.PAT }}" \
+               --data '{"event_type": "submodule-updated"}' \
+               https://api.github.com/repos/zeli-b/test-hugo/dispatches
