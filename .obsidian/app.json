@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "absolute",
   "attachmentFolderPath": "첨부 파일"
 }
