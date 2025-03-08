@@ -2,5 +2,5 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "absolute",
-  "attachmentFolderPath": "첨부 파일"
+  "attachmentFolderPath": "static"
 }

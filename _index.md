@@ -3,4 +3,4 @@
 [이 PR](https://github.com/devidw/obsidian-to-hugo/pull/21)이 머지되기 전까지는 위키에 이미지를 첨부할 수 없습니다… 🥹🥹🥹🥹🥹🥹🥹🥹
 사실 방법은 있지만 너무 어려움
 
-![[첨부 파일/사트 6기 로고.jpg]]
+![[static/사트 6기 로고.jpg]]
