@@ -2,5 +2,7 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "absolute",
-  "attachmentFolderPath": "static"
+  "attachmentFolderPath": "static",
+  "strictLineBreaks": true,
+  "showLineNumber": true
 }
