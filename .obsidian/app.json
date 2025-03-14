@@ -1,9 +1,0 @@
-{
-  "promptDelete": false,
-  "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute",
-  "attachmentFolderPath": "static",
-  "strictLineBreaks": true,
-  "showLineNumber": true,
-  "newFileLocation": "current"
-}
