@@ -49,11 +49,16 @@ const filterPostsJSON = (query, element) => {
 const searchInputAction = (event, callback) => {
     searchInput.addEventListener(event, callback)
 }
+
 /**
  * When the user focuses on the search input, the function getPostsJSON is called.
  */
-searchInputAction('focus', () => getPostsJSON().then(data => dataJSON = data))
+searchInputAction(
+    'focus', () => getPostsJSON().then(data => dataJSON = data)
+)
+
 /**
  * filtering result with the query that user given on search input.
  */
-searchInputAction('keyup', (event) => filterPostsJSON(event.target.value, searchResult))
+searchInputAction(
+    'input', (event) => filterPostsJSON(event.target.value, searchResult))
