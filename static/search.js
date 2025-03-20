@@ -38,7 +38,7 @@ const filterPostsJSON = (query, element) => {
     query = new RegExp(query, 'ig')
     result = dataJSON.filter(item => query.test(item.content))
     itemsWithElement = result.map(item => (
-        `<div class="search-result"><h2><a href="${item.url}">${item.title}</a></h2><p>${item.content}</p></div>`
+        `<ul class="search-result"><li><a href="${item.url}">${item.title}</a></li></ul>`
     ))
     itemsWithElement.unshift(`<p>To cancel search, Press 'ESC'</p>`)
     element.innerHTML = itemsWithElement.join('');
