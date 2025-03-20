@@ -3,3 +3,6 @@
 /.obsidian/core-plugins.json
 .obsidian/graph.json
 .obsidian/workspace.json
+/.obsidian/plugins
+/.obsidian/snippets
+.obsidian/.DS_Store
