@@ -3,5 +3,6 @@
   "newFileLocation": "current",
   "newLinkFormat": "absolute",
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "static"
+  "attachmentFolderPath": "static",
+  "promptDelete": false
 }
