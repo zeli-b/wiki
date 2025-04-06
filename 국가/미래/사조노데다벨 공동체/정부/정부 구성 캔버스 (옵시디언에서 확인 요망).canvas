@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"267f220ba353ba70","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/독립기관/사상 심의 위원회.md","x":800,"y":-760,"width":400,"height":400,"color":"5"},
+		{"id":"b707f3a432c8d2f1","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/독립기관/감사원.md","x":325,"y":-760,"width":400,"height":400,"color":"5"},
+		{"id":"b48f2314f25a11f3","type":"text","text":"독립기관","x":595,"y":-900,"width":250,"height":60,"color":"5"},
+		{"id":"7104b34703e44524","type":"text","text":"정부","x":675,"y":-1680,"width":250,"height":60},
+		{"id":"47aefad010dc893e","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/정부 - 개요.md","x":595,"y":-1530,"width":400,"height":400,"color":"6"},
+		{"id":"9b9d2a6f88e81886","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/사법부/심판원.md","x":1530,"y":-760,"width":400,"height":400},
+		{"id":"05a0a198d940fc37","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/사법부/사상 심판원.md","x":2025,"y":-760,"width":400,"height":400},
+		{"id":"029539f3bc0128e1","type":"text","text":"사법 기관","x":1855,"y":-960,"width":250,"height":60,"color":"3"},
+		{"id":"af27cb3daa28aca5","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/입법-행정/의회/의회 - 개요.md","x":-1670,"y":-760,"width":400,"height":400,"color":"1"},
+		{"id":"2789decea9699264","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/입법-행정/의회/제 1 의회/선출원회.md","x":-2310,"y":0,"width":400,"height":400,"color":"1"},
+		{"id":"ff86cf145b8c0db5","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/입법-행정/의회/제 2 의회/비례원회.md","x":-2710,"y":506,"width":400,"height":400,"color":"1"},
+		{"id":"81542de9b32d85f9","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/입법-행정/의회/제 2 의회/비선출원회.md","x":-1910,"y":506,"width":400,"height":400,"color":"1"},
+		{"id":"7e732b25619a757d","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/입법-행정/내각/간접조직/간접조직 - 개요.md","x":-1270,"y":506,"width":400,"height":400},
+		{"id":"5862736e547c2fc8","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/입법-행정/내각/내각 - 개요.md","x":-230,"y":106,"width":400,"height":400,"color":"1"},
+		{"id":"5cf48895ef924ad5","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/입법-행정/내각/직접조직/직접조직 - 개요.md","x":-230,"y":612,"width":400,"height":400,"color":"1"},
+		{"id":"5db704b04740e677","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/입법-행정/내각/직접조직/고위공직자경호국.md","x":-525,"y":1146,"width":400,"height":400},
+		{"id":"63e1203ec796bd93","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/입법-행정/내각/직접조직/식사의 방.md","x":125,"y":1146,"width":400,"height":400},
+		{"id":"d139fa6a45f91888","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/정부 구성 캔버스 (옵시디언에서 확인 요망).canvas","x":675,"y":-94,"width":1750,"height":1640}
+	],
+	"edges":[
+		{"id":"bfb4a82d69435ba3","fromNode":"029539f3bc0128e1","fromSide":"bottom","toNode":"9b9d2a6f88e81886","toSide":"top"},
+		{"id":"1e90215af16e289a","fromNode":"029539f3bc0128e1","fromSide":"bottom","toNode":"05a0a198d940fc37","toSide":"top"},
+		{"id":"3a411b23e14d525d","fromNode":"47aefad010dc893e","fromSide":"right","toNode":"029539f3bc0128e1","toSide":"top"},
+		{"id":"e1cf8af78265a9bb","fromNode":"47aefad010dc893e","fromSide":"bottom","toNode":"b48f2314f25a11f3","toSide":"top"},
+		{"id":"4fb037f32e3008e2","fromNode":"b48f2314f25a11f3","fromSide":"bottom","toNode":"267f220ba353ba70","toSide":"top"},
+		{"id":"dc2eef1f79228466","fromNode":"b48f2314f25a11f3","fromSide":"bottom","toNode":"b707f3a432c8d2f1","toSide":"top"},
+		{"id":"9af285eea308a376","fromNode":"af27cb3daa28aca5","fromSide":"bottom","toNode":"2789decea9699264","toSide":"top"},
+		{"id":"e39a5f4bb926dc3c","fromNode":"2789decea9699264","fromSide":"right","toNode":"81542de9b32d85f9","toSide":"top","fromEnd":"arrow"},
+		{"id":"6ebf40d12d98af93","fromNode":"2789decea9699264","fromSide":"left","toNode":"ff86cf145b8c0db5","toSide":"top","fromEnd":"arrow"},
+		{"id":"59e6fbd45115aa7e","fromNode":"81542de9b32d85f9","fromSide":"left","toNode":"ff86cf145b8c0db5","toSide":"right","fromEnd":"arrow"},
+		{"id":"81968441c7510a66","fromNode":"2789decea9699264","fromSide":"right","toNode":"5862736e547c2fc8","toSide":"left"},
+		{"id":"01b1c0a39435becd","fromNode":"5862736e547c2fc8","fromSide":"bottom","toNode":"5cf48895ef924ad5","toSide":"top"},
+		{"id":"6bec8c0963ad283a","fromNode":"47aefad010dc893e","fromSide":"left","toNode":"af27cb3daa28aca5","toSide":"top"},
+		{"id":"63c411771d73f1df","fromNode":"5cf48895ef924ad5","fromSide":"bottom","toNode":"5db704b04740e677","toSide":"top"},
+		{"id":"482f03d8d2e8e602","fromNode":"5cf48895ef924ad5","fromSide":"bottom","toNode":"63e1203ec796bd93","toSide":"top"},
+		{"id":"01fbe1b6a4949fee","fromNode":"2789decea9699264","fromSide":"right","toNode":"7e732b25619a757d","toSide":"top"},
+		{"id":"cd9ff18dce17b9a4","fromNode":"5862736e547c2fc8","fromSide":"left","toNode":"7e732b25619a757d","toSide":"top"},
+		{"id":"74501356fa951e8a","fromNode":"af27cb3daa28aca5","fromSide":"right","toNode":"5862736e547c2fc8","toSide":"top"}
+	]
+}
