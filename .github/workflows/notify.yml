@@ -5,7 +5,7 @@ on:
     branches:
       - main
 
-  dispatch-event:
+  workflow_dispatch:
 
 jobs:
   notify-main-repo:
