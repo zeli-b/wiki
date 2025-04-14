@@ -5,6 +5,8 @@ on:
     branches:
       - main
 
+  dispatch-event:
+
 jobs:
   notify-main-repo:
     runs-on: ubuntu-latest
