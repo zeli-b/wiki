@@ -2,8 +2,8 @@ name: Weekly Git Repo Backup
 
 on:
   schedule:
-    - cron: '0 3 * * 1'  # 매주 월요일 오전 3시 UTC (한국 기준 오후 12시)
-  workflow_dispatch:      # 수동 실행도 가능하게
+    - cron: '0 3 * * 1'  # 매주 월요일 오전 3시 (UTC)
+  workflow_dispatch:
 
 jobs:
   zip-and-release:
@@ -13,7 +13,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0  # .git 폴더까지 포함하려면 전체 히스토리가 필요
+        fetch-depth: 0
+
+    - name: Set date env var
+      id: set-date
+      run: echo "DATE_TAG=$(date +%Y%m%d)" >> $GITHUB_ENV
 
     - name: Zip repository including .git
       run: |
@@ -23,8 +27,8 @@ jobs:
     - name: Create GitHub release
       uses: softprops/action-gh-release@v2
       with:
-        tag_name: git-backup-$(date +%Y%m%d)
-        name: Weekly Backup - $(date +%Y-%m-%d)
+        tag_name: git-backup-${{ env.DATE_TAG }}
+        name: Weekly Backup - ${{ env.DATE_TAG }}
         files: ../repo-with-git.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
