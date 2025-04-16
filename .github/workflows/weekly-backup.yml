@@ -21,8 +21,7 @@ jobs:
 
     - name: Zip repository including .git
       run: |
-        cd ..
-        zip -r repo-with-git.zip $GITHUB_REPOSITORY
+        zip -r repo-with-git.zip . 
 
     - name: Create GitHub release
       uses: softprops/action-gh-release@v2
