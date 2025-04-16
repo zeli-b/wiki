@@ -1,0 +1,33 @@
+name: Weekly Git Repo Backup
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'  # 매주 월요일 오전 3시 (UTC)
+  workflow_dispatch:
+
+jobs:
+  zip-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set date env var
+      id: set-date
+      run: echo "DATE_TAG=$(date +%Y%m%d)" >> $GITHUB_ENV
+
+    - name: Zip repository including .git
+      run: |
+        zip -r wiki.zip . 
+
+    - name: Create GitHub release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: git-backup-${{ env.DATE_TAG }}
+        name: Weekly Backup - ${{ env.DATE_TAG }}
+        files: ./wiki.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
