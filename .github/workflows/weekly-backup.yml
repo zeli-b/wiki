@@ -21,13 +21,13 @@ jobs:
 
     - name: Zip repository including .git
       run: |
-        zip -r repo-with-git.zip . 
+        zip -r wiki.zip . 
 
     - name: Create GitHub release
       uses: softprops/action-gh-release@v2
       with:
         tag_name: git-backup-${{ env.DATE_TAG }}
         name: Weekly Backup - ${{ env.DATE_TAG }}
-        files: ../repo-with-git.zip
+        files: ./wiki.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
