@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Sapota";
+    font-weight: regular;
+    src: url("https://sat.shtelo.org/Sapota.woff") format("woff");
+    unicode-range: U+E000-F8FF;
+  }
+
+  .markdown-preview-section,
+  .markdown-source-view.mod-cm6 .cm-sizer {
+      font-family: Sapota, sans-serif;
+  }
