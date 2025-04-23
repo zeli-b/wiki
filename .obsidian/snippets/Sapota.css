@@ -2,13 +2,13 @@
 
 
 @font-face {
-    font-family: "Sapota";
-    font-weight: regular;
-    src: url("https://sat.shtelo.org/Sapota.woff") format("woff");
-    unicode-range: U+E000-F8FF;
-  }
+font-family: "Sapota";
+font-weight: regular;
+src: url("https://sat.shtelo.org/Sapota.woff") format("woff");
+unicode-range: U+E000-F8FF;
+}
 
-  .markdown-preview-section,
-  .markdown-source-view.mod-cm6 .cm-sizer {
-      font-family: Sapota, Pretendard, "AppleSDGothicNeo", "Inter", "Inter V", "Noto Sans CJK KR", sans-serif;
-  }
+.markdown-preview-section,
+.markdown-source-view.mod-cm6 .cm-sizer {
+  font-family: "Sapota", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
