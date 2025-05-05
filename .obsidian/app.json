@@ -28,5 +28,6 @@
     "editor:insert-table",
     "editor:insert-footnote",
     "editor:configure-toolbar"
-  ]
+  ],
+  "showLineNumber": true
 }
