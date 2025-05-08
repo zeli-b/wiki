@@ -4,7 +4,7 @@
 		{"id":"b707f3a432c8d2f1","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/독립기관/감사원.md","x":325,"y":-760,"width":400,"height":400,"color":"5"},
 		{"id":"b48f2314f25a11f3","type":"text","text":"독립기관","x":595,"y":-900,"width":250,"height":60,"color":"5"},
 		{"id":"7104b34703e44524","type":"text","text":"정부","x":675,"y":-1680,"width":250,"height":60},
-		{"id":"47aefad010dc893e","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/정부.md","x":595,"y":-1530,"width":400,"height":400,"color":"6"},
+		{"id":"47aefad010dc893e","type":"file","file":"국가/미래/사조노데다벨 공동체/정부.md","x":595,"y":-1530,"width":400,"height":400,"color":"6"},
 		{"id":"9b9d2a6f88e81886","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/사법부/심판원.md","x":1530,"y":-760,"width":400,"height":400},
 		{"id":"05a0a198d940fc37","type":"file","file":"국가/미래/사조노데다벨 공동체/정부/사법부/사상 심판원.md","x":2025,"y":-760,"width":400,"height":400},
 		{"id":"029539f3bc0128e1","type":"text","text":"사법 기관","x":1855,"y":-960,"width":250,"height":60,"color":"3"},
