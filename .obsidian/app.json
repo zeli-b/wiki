@@ -29,5 +29,6 @@
     "editor:insert-footnote",
     "editor:configure-toolbar"
   ],
-  "showLineNumber": true
+  "showLineNumber": true,
+  "spellcheck": false
 }
