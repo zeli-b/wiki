@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+	<title>새 프로젝트</title>
+	<defs>
+		<image  width="1000" height="1000" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAPoAQMAAAB3bUanAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAcVJREFUeJztzTEBAAAMAqDZv/RieAgFyDXFbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xa73W632+12u91ut9vtdrvdbrfb7Xb7wP5ohAPpW9we0QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #370778 } 
+		.s1 { fill: #ffc000 } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="모양 1" fill-rule="evenodd" class="s0" d="m1000 1000h-1000v-1000h1000z"/>
+	<path id="모양 3 copy 2" fill-rule="evenodd" class="s1" d="m600 420h-200v-40h200z"/>
+	<path id="모양 3 copy" fill-rule="evenodd" class="s1" d="m600 400v200h-40v-200z"/>
+	<path id="모양 2" fill-rule="evenodd" class="s1" d="m400 500c0-55.3 44.7-100 100-100 55.3 0 100 44.7 100 100 0 55.3-44.7 100-100 100-55.3 0-100-44.7-100-100z"/>
+	<path id="모양 2 copy" fill-rule="evenodd" class="s0" d="m484 415c47 0 85 38 85 85 0 47-38 85-85 85-47 0-85-38-85-85 0-47 38-85 85-85z"/>
+	<path id="모양 2 copy 2" fill-rule="evenodd" class="s1" d="m500 470c0-16.6 13.4-30 30-30 16.6 0 30 13.4 30 30 0 16.6-13.4 30-30 30-16.6 0-30-13.4-30-30z"/>
+</svg>
